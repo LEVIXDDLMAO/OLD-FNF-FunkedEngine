@@ -5,8 +5,13 @@
 
 IF YOU MAKE A MOD AND DISTRIBUTE A MODIFIED / RECOMPILED VERSION, YOU MUST OPEN SOURCE YOUR MOD AS WELL
 
-# Credits / shoutouts 
-  LeviXD - Coder and owner   
-  Dom - main Coder
-  ninjamuffin99 (me!) - Programmer
+# Credits To the ogs <3
+ninjamuffin99 (me!) - Programmer
+PhantomArcade3K and Evilsk8r - Art
+Kawaisprite - Musician
+# Credits to the funked engine team
+LeviXD - coder and owner
+Dom - main coder 
+ just the two of us for now
+  
  
