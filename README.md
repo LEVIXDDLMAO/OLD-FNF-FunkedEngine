@@ -16,6 +16,7 @@ Kawaisprite - Musician
 LeviXD - coder and owner
 
 Dom - main coder 
+ 
  just the two of us for now
   
  
