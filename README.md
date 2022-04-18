@@ -17,6 +17,6 @@ LeviXD (me!) - coder and owner
 
 Dom - main coder 
  
- just the two of us for now
+Toast -  making the extra GF charater  
   
  
