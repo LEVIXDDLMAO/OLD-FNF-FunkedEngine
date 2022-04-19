@@ -8,7 +8,7 @@ import flixel.util.FlxColor;
 
 class OptionsSubState extends MusicBeatSubstate
 {
-	var textMenuItems:Array<String> = ['Master Volume', 'Sound Volume', 'Controls' ];
+	var textMenuItems:Array<String> = ['Adjust Delay and Combo', 'Note Colors', 'Controls', 'Graphics', 'Gameplay'  ];
 
 	var selector:FlxSprite;
 	var curSelected:Int = 0;
