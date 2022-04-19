@@ -5,7 +5,7 @@
 
 IF YOU MAKE A MOD AND DISTRIBUTE A MODIFIED / RECOMPILED VERSION, YOU MUST OPEN SOURCE YOUR MOD AS WELL
 
-# Credits To the ogs <3
+# Credits to the ogs 
 ninjamuffin99  - Programmer
 
 PhantomArcade3K and Evilsk8r - Art
