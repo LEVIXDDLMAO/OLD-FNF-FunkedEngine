@@ -13,7 +13,7 @@ PhantomArcade3K and Evilsk8r - Art
 Kawaisprite - Musician
 # Credits to the funked engine team
 
-LeviXD (me!) - coder and owner
+LeviXD (me!) - coder / owner
 
 Dom - main coder 
  
