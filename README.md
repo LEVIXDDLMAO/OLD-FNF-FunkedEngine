@@ -11,12 +11,9 @@ ninjamuffin99  - Programmer
 PhantomArcade3K and Evilsk8r - Art
 
 Kawaisprite - Musician
-# Credits to the funked engine team
-
+# Credits to the Funked Engine
 LeviXD (me!) - coder / owner
 
-Dom - main coder 
- 
-Toast -  making the extra GF charater  
+Dom - main coder  
   
 Jonnycat - The porter / coder
