@@ -5,18 +5,15 @@
 
 IF YOU MAKE A MOD AND DISTRIBUTE A MODIFIED / RECOMPILED VERSION, YOU MUST OPEN SOURCE YOUR MOD AS WELL
 
-# Credits To the ogs <3
+# Credits to the ogs 
 ninjamuffin99  - Programmer
 
 PhantomArcade3K and Evilsk8r - Art
 
 Kawaisprite - Musician
-# Credits to the funked engine team
-
+# Credits to the Funked Engine
 LeviXD (me!) - coder / owner
 
-Dom - main coder 
- 
-Toast -  making the extra GF charater  
+Dom - main coder  
   
 Jonnycat - The porter / coder
