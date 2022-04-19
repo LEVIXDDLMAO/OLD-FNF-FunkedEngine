@@ -27,7 +27,7 @@ class OptionsSubState extends MusicBeatSubstate
 
 		for (i in 0...textMenuItems.length)
 		{
-      var optionText:Alphabet = new Alphabet(20, 20 + (i * 50), 0, textMenuItems[i], true, false);
+      var optionText:Alphabet = new Alphabet(20, 20 + (i * 100), 0, textMenuItems[i], true, false);
 			optionText.ID = i;
 			grpOptionsTexts.add(optionText);
 		}
