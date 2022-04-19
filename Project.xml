@@ -115,8 +115,9 @@
 	<haxelib name="flixel-ui" />
 	<haxelib name="newgrounds"/>
 	<haxelib name="faxe" if='switch'/>
-	<haxelib name="polymod"/>
-	<haxelib name="discord_rpc" if="desktop"/>
+	<haxelib name="polymod"/> 
+	<haxelib name="linc_luajit" unless="html5"/> //use this linc_luajit https://github.com/AndreiRudenko/linc_luajit
+	<haxelib name="discord_rpc" if="desktop" unless="html5"/> 
 	<!-- <haxelib name="hxcpp-debug-server" if="desktop"/> -->
 
 	<!-- <haxelib name="markdown" /> -->
