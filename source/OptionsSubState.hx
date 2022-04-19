@@ -12,7 +12,6 @@ class OptionsSubState extends MusicBeatSubstate
 
 	var selector:FlxSprite;
 	var curSelected:Int = 0;
-
 	var grpOptionsTexts:FlxTypedGroup<Alphabet>;
 
 	public function new()
