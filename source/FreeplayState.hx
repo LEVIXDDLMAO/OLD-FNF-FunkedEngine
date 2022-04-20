@@ -19,12 +19,12 @@ class FreeplayState extends MusicBeatState
 {
 	var songs:Array<SongMetadata> = [];
 
-	var selector:Alphabet;
+	var selector:FlxText;
 	var curSelected:Int = 0;
 	var curDifficulty:Int = 1;
 
-	var scoreText:Alphabet;
-	var diffText:Alphabet;
+	var scoreText:FlxText;
+	var diffText:FlxText;
 	var lerpScore:Int = 0;
 	var intendedScore:Int = 0;
 
@@ -108,7 +108,7 @@ class FreeplayState extends MusicBeatState
 			// songText.screenCenter(X);
 		}
 
-		scoreText = new Alphabet(FlxG.width * 0.7, 5, 0, "", 32);
+		scoreText = new FlxText(FlxG.width * 0.7, 5, 0, "", 32);
 		// scoreText.autoSize = false;
 		scoreText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, RIGHT);
 		// scoreText.alignment = RIGHT;
@@ -117,7 +117,7 @@ class FreeplayState extends MusicBeatState
 		scoreBG.alpha = 0.6;
 		add(scoreBG);
 
-		diffText = new Alphabet(scoreText.x, scoreText.y + 36, 0, "", 24);
+		diffText = new FlxText(scoreText.x, scoreText.y + 36, 0, "", 24);
 		diffText.font = scoreText.font;
 		add(diffText);
 
@@ -128,7 +128,7 @@ class FreeplayState extends MusicBeatState
 
 		// FlxG.sound.playMusic(Paths.music('title'), 0);
 		// FlxG.sound.music.fadeIn(2, 0, 0.8);
-		selector = new Alphabet();
+		selector = new FlxText();
 
 		selector.size = 40;
 		selector.text = ">";

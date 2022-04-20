@@ -8,16 +8,16 @@ import flixel.util.FlxColor;
 
 class OptionsSubState extends MusicBeatSubstate
 {
-	var textMenuItems:Array<String> = ['Note Colors', 'Controls', 'Adjust Delay and Combo', 'Graphics', 'Gameplay'];
+	var textMenuItems:Array<String> = ['Note Colors', 'Controls', 'Adjust Delay and Combo', 'Graphics',  'Gameplay'];];
 
 	var selector:FlxSprite;
 	var curSelected:Int = 0;
 
-	var grpOptionsTexts:FlxTypedGroup<Alphabet>;
-      
-	function openSelectedSubstate(label:String) 
-	{
-		switch(label) 
+	var grpOptionsTexts:FlxTypedGroup<FlxText>;
+
+	public function new()
+	function openSelectedSubstate(label:String) {
+		switch(label) {
 			case 'Note Colors':
 				openSubState(new options.NotesSubState());
 			case 'Controls':
@@ -28,12 +28,11 @@ class OptionsSubState extends MusicBeatSubstate
 				openSubState(new options.GameplaySettingsSubState());
 			case 'Adjust Delay and Combo':
 				LoadingState.loadAndSwitchState(new options.NoteOffsetState());
-	}	
-	public function new()
+		}
 	{
 		super();
 
-		grpOptionsTexts = new FlxTypedGroup<Alphabet>();
+		grpOptionsTexts = new FlxTypedGroup<FlxText>();
 		add(grpOptionsTexts);
 
 		selector = new FlxSprite().makeGraphic(5, 5, FlxColor.RED);
@@ -41,7 +40,7 @@ class OptionsSubState extends MusicBeatSubstate
 
 		for (i in 0...textMenuItems.length)
 		{
-			var optionText:Alphabet = new Alphabet(20, 20 + (i * 100), 0, textMenuItems[i], 32);
+			var optionText:FlxText = new FlxText(20, 20 + (i * 50), 0, textMenuItems[i], 32);
 			optionText.ID = i;
 			grpOptionsTexts.add(optionText);
 		}
@@ -63,7 +62,7 @@ class OptionsSubState extends MusicBeatSubstate
 		if (curSelected >= textMenuItems.length)
 			curSelected = 0;
 
-		grpOptionsTexts.forEach(function(txt:Alphabet)
+		grpOptionsTexts.forEach(function(txt:FlxText)
 		{
 			txt.color = FlxColor.WHITE;
 
