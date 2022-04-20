@@ -14,7 +14,19 @@ class OptionsSubState extends MusicBeatSubstate
 	var curSelected:Int = 0;
 
 	var grpOptionsTexts:FlxTypedGroup<Alphabet>;
-
+      
+	function openSelectedSubstate(label:String) {
+		switch(label) {
+			case 'Note Colors':
+				openSubState(new options.NotesSubState());
+			case 'Controls':
+				openSubState(new options.ControlsSubState());
+			case 'Graphics':
+				openSubState(new options.GraphicsSettingsSubState());
+			case 'Gameplay':
+				openSubState(new options.GameplaySettingsSubState());
+			case 'Adjust Delay and Combo':
+				LoadingState.loadAndSwitchState(new options.NoteOffsetState());
 	public function new()
 	{
 		super();
