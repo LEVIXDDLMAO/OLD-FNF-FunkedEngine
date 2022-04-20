@@ -23,21 +23,20 @@ class StoryMenuState extends MusicBeatState
 	var scoreText:FlxText;
 
 	var weekData:Array<Dynamic> = [
-    ["Milf"],
-	 
+    	["Milf"]
 	];
 	var curDifficulty:Int = 1;
 
 	public static var weekUnlocked:Array<Bool> = [true];
 
 	var weekCharacters:Array<Dynamic> = [
-	 ['mom', 'bf', 'gf'],
-	 
+		['mom', 'bf', 'gf'],
+	];
 
 	var weekNames:Array<String> = [
 		"",
-		 "MOMMY MUST MURDER",
-	 
+		"MOMMY MUST MURDER",
+	];
 
 	var txtWeekTitle:FlxText;
 
