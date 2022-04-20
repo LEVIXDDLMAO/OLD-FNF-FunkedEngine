@@ -37,6 +37,11 @@ class OptionsSubState extends MusicBeatSubstate
 	{
 		super.update(elapsed);
 
+		if(controls.BACK)
+		{
+			FlxG.switchState(new MainMenuState());
+		}
+
 		if (controls.UP_P)
 			curSelected -= 1;
 
@@ -57,6 +62,7 @@ class OptionsSubState extends MusicBeatSubstate
 				txt.color = FlxColor.YELLOW;
 		});
 
+		/*
 		if (controls.ACCEPT)
 		{
 			switch (textMenuItems[curSelected])
@@ -65,7 +71,7 @@ class OptionsSubState extends MusicBeatSubstate
 					FlxG.state.closeSubState();
 					FlxG.state.openSubState(new ControlsSubState());
 			}
-		}
+		}*/
 	}
 
 	function openSelectedSubstate(label:String) 
