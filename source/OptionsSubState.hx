@@ -26,8 +26,8 @@ class OptionsSubState extends MusicBeatSubstate
 			case 'Gameplay':
 				openSubState(new options.GameplaySettingsSubState());
 			case 'Adjust Delay and Combo':
-				LoadingState.loadAndSwitchState(new options.NoteOffsetState()); 
-		}
+				LoadingState.loadAndSwitchState(new options.NoteOffsetState());
+		}	}
 	public function new()
 	{
 		super();
@@ -80,5 +80,4 @@ class OptionsSubState extends MusicBeatSubstate
 			}
 		}
 	}
-}
 }
