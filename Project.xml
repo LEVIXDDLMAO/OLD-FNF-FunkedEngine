@@ -159,9 +159,9 @@
 	<haxedef name="NAPE_RELEASE_BUILD" unless="debug" />
          
 	<!-- Akways enable Null Object Reference check for crash dialog -->
-	<haxedef name="HXCPP_CHECK_POINTER" if="release" />
-	<haxedef name="HXCPP_STACK_LINE" if="release" /> 
-	
+	<haxedef name="HXCPP_CHECK_POINTER" if="release" unless="debug"/>
+	<haxedef name="HXCPP_STACK_LINE" if="release" unless="debug"/> 
+	// thx funk mix for this 
 	<!-- _________________________________ Custom _______________________________ -->
 
 	<!--Place custom nodes like icons here (higher priority to override the HaxeFlixel icon)-->
