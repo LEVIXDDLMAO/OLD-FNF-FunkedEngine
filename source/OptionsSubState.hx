@@ -15,8 +15,9 @@ class OptionsSubState extends MusicBeatSubstate
 
 	var grpOptionsTexts:FlxTypedGroup<Alphabet>;
       
-	function openSelectedSubstate(label:String) {
-		switch(label) {
+	function openSelectedSubstate(label:String) 
+	{
+		switch(label) 
 			case 'Note Colors':
 				openSubState(new options.NotesSubState());
 			case 'Controls':
@@ -27,7 +28,7 @@ class OptionsSubState extends MusicBeatSubstate
 				openSubState(new options.GameplaySettingsSubState());
 			case 'Adjust Delay and Combo':
 				LoadingState.loadAndSwitchState(new options.NoteOffsetState());
-		}	}
+	}	
 	public function new()
 	{
 		super();
