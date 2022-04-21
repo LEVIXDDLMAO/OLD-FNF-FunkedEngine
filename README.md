@@ -1,4 +1,4 @@
- # Friday Night Funkin' - Funked Engine
+  # Friday Night Funkin' - Funked Engine
    this is a repo Of the FNF Funked Engine, a engine originally made for Friday night funkin
    
    Play the Ludum Dare prototype here: https://ninja-muffin24.itch.io/friday-night-funkin Play the Newgrounds one here: https://www.newgrounds.com/portal/view/770371 Support the project on the itch.io page: https://ninja-muffin24.itch.io/funkin
@@ -18,8 +18,9 @@ Dom - main coder
   
 Jonnycat - The porter / coder
 
-SanicBTW - coder 
+SanicBTW - coder / porter
 
 # Installtion
 
 Dont worry the engine will be ported by jonnycat Dont worry about porting it
+we have 2 porters for the team!

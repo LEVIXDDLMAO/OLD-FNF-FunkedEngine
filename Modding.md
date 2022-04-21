@@ -1,2 +1,2 @@
-# RIGHT NOW THE MOD FOLDER WILL NOT BE UPLOADED JUST YET BUT WHEN MOD FOLDER IS IT WILL BE IN THE ASSETS FOLDER 
-- Funked Engine Team
+ Will be using psych engine mod folder and source
+ - funked engine team
