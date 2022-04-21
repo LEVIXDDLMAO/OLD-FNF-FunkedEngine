@@ -12,3 +12,11 @@ slowly getting this done
 finshed the early version for the engine 
 
 Dosen't work  so making beta (0.2) for the engine with base songs
+
+- beta version (0.2) 
+
+works good! 
+
+newer early version (0.3) will be using psych engine source and mod folder 
+
+for a better version for the source and moding will be done
