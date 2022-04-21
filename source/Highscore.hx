@@ -27,7 +27,7 @@ class Highscore
 				setScore(daSong, score);
 		}
 		else
-			setScore(daSong, score);
+			setScore(daSong, score misses);
 	}
 
 	public static function saveWeekScore(week:Int = 1, score:Int = 0, ?diff:Int = 0):Void
