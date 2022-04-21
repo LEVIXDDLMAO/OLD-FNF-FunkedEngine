@@ -61,7 +61,7 @@ class FreeplayState extends MusicBeatState
 		isDebug = true;
 		#end
 
-		if (StoryMenuState.weekUnlocked[2] || isDebug)
+		if (StoryMenuState.weekUnlocked[1] || isDebug)
 			addWeek(['Bopeebo', 'Fresh', 'Dadbattle'], 1, ['dad']);
 
 		if (StoryMenuState.weekUnlocked[2] || isDebug)
@@ -257,7 +257,9 @@ class FreeplayState extends MusicBeatState
 
 	function changeSelection(change:Int = 0)
 	{
-		#if !switch
+		//crashes because it newgrounds stuff and we arent currently using newgrounds
+		//removing the ng makes free play useless
+		#if (!switch && ng) 
 		NGio.logEvent('Fresh');
 		#end
 
