@@ -14,7 +14,7 @@ Kawaisprite - Musician
 # Credits to the Funked Engine
 LeviXD (me!) - coder / owner
 
-Dom - main coder  
+Dom - coder  
   
 Jonnycat - The porter / coder
 
@@ -23,4 +23,9 @@ SanicBTW - coder / porter
 # Installtion
 
 Dont worry the engine will be ported by jonnycat Dont worry about porting it
-we have 2 porters for the team!
+
+we have 2 porters for the team! 
+
+# Quick Update on the engine
+
+We moved on from using normal fnf input to psych engine!
