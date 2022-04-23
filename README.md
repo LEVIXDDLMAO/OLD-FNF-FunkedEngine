@@ -29,3 +29,5 @@ we have 2 porters for the team!
 # Quick Update on the engine
 
 We moved on from using normal fnf input to psych engine!
+
+Moving on from beta/early moving to 0.1.0 
