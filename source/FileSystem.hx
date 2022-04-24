@@ -23,7 +23,7 @@
 
 // This file is generated from mozilla\FileSystem.webidl. Do not edit!
 
-package js.html;
+package;
 
 /**
 	The File and Directory Entries API interface `FileSystem` is used to represent a file system. These objects can be obtained from the `filesystem` property on any file system entry. Some browsers offer additional APIs to create and manage file systems, such as Chrome's `requestFileSystem()` method.
