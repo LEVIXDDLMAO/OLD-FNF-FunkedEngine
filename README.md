@@ -15,8 +15,6 @@ Kawaisprite - Musician
 LeviXD (me!) - coder / owner
 
 Dom - coder  
-  
-Jonnycat - The porter / coder
 
 SanicBTW - coder / porter
 
@@ -31,3 +29,7 @@ we have 2 porters for the team!
 We moved on from using normal fnf input to psych engine!
 
 Moving on from beta/early moving to 0.1.0 
+
+# Thanks for you time Jonnycat
+ 
+ Thanks for helping us with the engine I enjoyed your time
